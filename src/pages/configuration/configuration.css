@@ -1,0 +1,114 @@
+.configuration {
+  flex: 4;
+  padding: 20px;
+}
+
+.configurationTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.configurationAddButton {
+  width: 80px;
+  border: none;
+  padding: 5px;
+  background-color: teal;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.configurationContainer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.configurationShow {
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 0 0 11px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 11px -10px rgba(0, 0, 0, 0.75);
+}
+
+.configurationShowBottom {
+  margin-top: 20px;
+}
+
+.configurationShowTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(175, 170, 170);
+}
+
+.configurationShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #444;
+}
+
+.configurationShowIcon {
+  font-size: 16px !important;
+}
+
+.configurationShowInfoTitle {
+  margin-left: 10px;
+}
+
+.configurationUpdate {
+  flex: 2;
+  padding: 20px;
+  -webkit-box-shadow: 0 0 11px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 11px -10px rgba(0, 0, 0, 0.75);
+}
+
+.configurationUpdateTitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.configurationUpdateForm {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.configurationUpdateItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.configurationUpdateItem > select {
+  padding: 10px;
+}
+
+.configurationUpdateItem > label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.configurationUpdateInput {
+  border: none;
+  width: 250px;
+  height: 30px;
+  border-bottom: 1px solid grey;
+}
+
+.userUpdateRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.configurationUpdateButton {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+  font-weight: bold;
+}
